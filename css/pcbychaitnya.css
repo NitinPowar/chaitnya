@@ -1,0 +1,160 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900'); /*---- Header Nave ---*/
+
+
+html, body{
+
+    margin: 0%;
+    padding: 0%;
+    height: 100;
+    width: 100;
+}
+h2{
+    font-family: 'playfailr-display', serif;
+    font-size: 200%;
+    font-weight: 700%;
+    color: #2c2c22;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Raleway', serif;
+    color: #2c2c2c;
+    font-size: 140%;
+    line-height: 140%;
+    text-align: justify;
+    font-weight: 300%;
+    }
+
+img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    }
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://static.pexels.com/photos/248159/pexels-photo-248159.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    top: 0;
+}
+
+.intro .inner{
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+max-width: none;
+}
+.content{
+max-width: 600%;
+margin: auto;
+}
+h1{
+    font-family: 'playfaire-display', serif;
+    font-size: 300%;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    padding: 12%;
+    text-shadow: 0px 0px 250px #000;
+    }
+.content p {
+    color: rgb(204, 216, 36);
+    }
+.inner{
+    max-width: 600%;
+    margin: auto;
+    font-size: 170%;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/----------- Start Nave ---------*/
+nav{
+    float: :left;
+    padding: 50% 50% 0 0;
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    float: left;
+    }
+nav ul {
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    }
+
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    } 
+    nav ul li a:hover{
+        text-decoration: underline;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        padding: 31px 0;
+        left: 10px;
+        top: 10px;
+
+    width: 20%;
+    z-index: 1000;
+    }
+    nav li{
+        width: 100%;
+        padding: 8px 0 10px 40px;
+        margin: 0;
+        }
+    nav:hover ul {
+        margin-top: 64px;
+        display: block;
+        position: absolute;
+    }
+#menu-icon {
+    width: 30px;
+    height: 26px;
+    background: url('../images/hover.png') center;
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    background-size: 50px 50px;
+    padding: 10%;
+    }
+/*---------- End Nav ----------*/
+.left-col {
+width: 60%;
+float: left;
+margin: 4% 0 4% 4%;
+}
+
+.sidebar{
+    width: 25%;
+    float: left;
+    margin: 4%;
+    }
+.one-third-port{
+width: 29.333333%;
+padding: 2%;
+float: left;
+}
+.one-third-port img:hover {
+opacity: .6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
