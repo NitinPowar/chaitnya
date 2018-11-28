@@ -22,7 +22,7 @@ p {
     color: #2c2c2c;
     font-size: 140%;
     line-height: 140%;
-    text-align: justify;
+    text-align: left;
     font-weight: 300%;
     }
 
@@ -143,9 +143,124 @@ float: left;
 opacity: .6;
 }
 
+.contact p {
+    text-align: left;
+    letter-spacing: 5px;
+    }
+.contact a {
+    color: #2c2c2c;
+    }
+.clearfix {
+    clear: both;
+    height: 3%;
+    }
+.parallax {
+    background: url(https://scontent.fpnq1-1.fna.fbcdn.net/v/t1.0-9/37161663_1877930308965127_3054052902319423488_n.jpg?_nc_cat=105&_nc_ht=scontent.fpnq1-1.fna&oh=ae38d0ac2e70b3524883b72b5fc60b23&oe=5CB07EBF);
+    opacity: 0.4;
+}
+.parallax-inner {
+    padding-top: 50%;
+}
+.social {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    position: absolute;
+    font-size: 300%;
+    margin: 5% 40%;
+    color: #2c2c2c;
+    }
+.social li {
+    background: #000;
+    list-style: none;
+    font-size: 50px;
+    transition: .5s;
+    margin: 15px;   
+}
+.social li:hover  {
+    transform: translateY(-8px);    
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
+
+}
+.social li a {
+    width: 60px;
+    padding: 16px 0;
+    color: #fff;
+    display: block;
+}
+.social li:nth-child(1)
+{background: #3b5998}
+.social li:nth-child(2)
+{background: #c32aa3}
+.social li:nth-child(3)
+{background:#25d366}
+.social li:nth-child(4)
+{background:#db4437}
 
 
+.social i:hover{
+    color: #606060;
+    }
 
+footer.second {
+    color: #2c2c2c;
+    }
+footer.second p {
+    color: #FFF;
+    text-align: center;
+    padding: 5%;
+}
+
+@media screen and (max-width: 760px){
+    #menu-icon{
+        margin: 26px 0 0 26px;  
+    }
+    nav ul, nav: nav:active ul {
+    padding: 8px 0;
+    left: 23px;
+    top: 34px;
+    width: 50%;
+    }
+    .inner  {
+        font-size: 120%;
+    }
+    .content h1 {
+        font-size: 180%;
+    }
+    p {
+        font-size: 120%;
+    }
+    h2 {
+        font-size: 160%;
+    }
+    .left-col{
+        width: 96%;
+        margin: 0 0 3% 0;
+        padding: 0 0%;
+    }
+    .sidebar{
+        width: 96%;
+        margin: 0 auto;
+    }
+    img{
+        padding: 2%;
+    }
+    .one-third-port{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .break{
+            display: block;
+    }
+    .parallax{
+        display: none;
+    }
+    .social i {
+        font-size: 170%;
+    }
+
+}
 
 
 
