@@ -150,9 +150,9 @@ opacity: .6;
 .contact a {
     color: #2c2c2c;
     }
-.clearfix {
-    clear: both;
-    height: 3%;
+.port {
+    clear: left;
+    height: 10%;
     }
 .parallax {
     background: url(https://scontent.fpnq1-1.fna.fbcdn.net/v/t1.0-9/37161663_1877930308965127_3054052902319423488_n.jpg?_nc_cat=105&_nc_ht=scontent.fpnq1-1.fna&oh=ae38d0ac2e70b3524883b72b5fc60b23&oe=5CB07EBF);
